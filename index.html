@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/game.js"></script> 
+</head>
+
+<body>
+
+  <div class="jumbotron bg-primary text-white" >
+    <div class="media">
+      <img class="mr-3" src="assets/images/crystals.jpg" width="400" height="300" alt="psychic-ability">
+      <div class="media-body">
+        <h1 class="display-3">Crystal Collector</h1>
+          <h4>Instructions</h4>
+          <p>There are four crystals below.  At the start of the game you will be given a random number as the score to match.</p>
+          <p>When you click on a crystal, it will add a specific amount of points to your total score. </p>
+          <p>The value of each crystal is hidden from you until you click on it.</p>       
+          <p>You win if your total score matches the random number from the beginning of the game.  You lose if your score goes above the random number.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="col-md-3">
+      </div>
+    <div class="col-md-3"> 
+      <ul class="list-group">
+        <li class="list-group-item bg-dark text-white"><h3>Score to match:  <span id="scoreToMatch"></span></h3></li>
+        <li class="list-group-item bg-dark text-white"><h3>Your total score is:  <span id="totalScore"></span></h3></li>
+      </ul>
+    </div>
+    <div class="col-md-3"> 
+      <ul class="list-group">
+        <li class="list-group-item bg-dark text-white"><h3>Wins:  <span id="wins"></span></h3></li>
+        <li class="list-group-item bg-dark text-white"><h3>Losses:  <span id="losses"></span></h3></li>
+      </ul>
+    </div>
+  </div> 
+
+  <br>
+  <br>
+
+      <div class="row text-center">
+        <div class="col-sm-3">
+        <img src="assets/images/clear crystal.jpg" class="clear" alt="Clear Crystal" width="200" height="200" />
+        </div>
+        <div class="col-sm-3">
+        <img src="assets/images/blue crystal.jpg" class="blue" alt="Blue Crystal" width="200" height="200" />
+        </div>
+        <div class="col-sm-3">
+        <img src="assets/images/pink crystal.jpg" class="pink" alt="Pink Crystal" width="200" height="200" />
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/purple crystal.jpg" class="purple" alt="Purple Crystal" width="200" height="200" />
+        </div>
+      </div>
+
+
+      <br>
+      <br>
+      <div class="static-bottom">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- The content in this div gets wrapped in a card -->
+            <div class="card bg-primary text-white">
+              <div class="card-body">
+              <div class="text-center">
+                Copyright &copy; 2018 by Silly Games
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+</body>
+
+</html>
